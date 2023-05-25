@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel=" stylesheet" href="loguin.css">
+    <title>Iniciar Sesion</title>
+    <link rel="shortcut icon" type="imagenes/png" href="Imagenes/Logo Empresa.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="loguin__content">
+            <img src="Imagenes/FondoP.png" alt="" class="login__img">
+            <img src="Imagenes/portada.png" alt="" class="ft" data-aos="zoom-out" data-aos-duration="3000">
+
+            <form action="" class="login__form" data-aos="flip-left" data-aos-duration="3000">
+                <div>
+                    <h1 class="login__title">
+                        <span> Bienvenido </span> de Nuevo
+                    </h1>
+                    <p class="login__description">
+                        ¡Bienvenido! Por favor registrate para continuar 
+                    </p>
+                </div>            
+
+                <div>
+                    <div class="login__inputs">
+                        <div>
+                            <label for="" class="login__label"> Email</label>
+                            <input type="email" placeholder="Ingrese su email" required class="login__input">
+                        </div>
+
+                        <div>
+                            <label for="" class="login__label">Contraseña</label>
+
+                            <div class="login__box">
+                                <input type="password" placeholder="Ingrese su contraseña" required class="login__input" id="input-pass">
+                                <i class="ri-eye-off-line loguin__eye" id="input-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="login__check">
+                        <input type="checkbox" class="login__check-input">
+                        <label for="" class="login__check-label">Recuerdame 😉 </label>
+                    </div>
+                </div>
+
+                <div> 
+                    <div class="login__buttons">
+                    
+                        <button  type="submit" formaction="mazegame.html" class="login__button"> Iniciar Sesion</button>
+                    
+                        <button type="submit" formaction="nosotros.html" class="login__button login__button-ghost"> Registrarse</button>
+                    
+                    </div>
+
+                    <a href="#" class="login__forgot">Olvide mi contraseña </a>
+                </div>
+            </form>
+        </div>
+    </div>
+   
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
